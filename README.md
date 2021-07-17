@@ -12,32 +12,32 @@ Below is the UFO sightings webpage at the end of project deliverable. Web page w
 
 **- Date search:**
 
-    The search filters are designed to be dynamic so when we enter the data (sample date format is provided in the text box), the table data is filtered by just moving the mouse pointer from the text box i.e the code detects the change in the text box and filters the data accordingly. In this example, we have 8 UFO sightings for 1/2/2010. 
-    ![image](https://user-images.githubusercontent.com/83181834/125538279-0fde8d3c-f3e2-4e99-b4f9-f9246ca01b7e.png)
+ The search filters are designed to be dynamic so when we enter the data (sample date format is provided in the text box), the table data is filtered by just moving the mouse pointer from the text box i.e the code detects the change in the text box and filters the data accordingly. In this example, we have 8 UFO sightings for 1/2/2010.
+
+![image](https://user-images.githubusercontent.com/83181834/126022704-722c3cb2-e8ae-48b0-8f27-c8ded8ef85ce.png)
 
 **- City search**
 
-    City search is used to filter the data based on any US cities. Sample format is given in the text box and below the city search results. In this example, there is only one UFO sightings in "Bakersfield" city.
-    ![image](https://user-images.githubusercontent.com/83181834/125538453-29904e24-f88a-4dbd-b580-4fae1e18f62a.png)
+ City search is used to filter the data based on any US cities. Sample format is given in the text box and below the city search results. In this example, there is only one UFO sightings in "Bakersfield" city.
+ 
+ ![image](https://user-images.githubusercontent.com/83181834/126022762-6d308b92-9cbf-4cda-83fa-69f512dcd1a3.png)
 
 **- State search**
 
-    State search is used to filter the data to view any UFO sightings within any US states. Note: Filteration data is case sensitive. In this example, we have only 3 UFO sightings in Arizona state.
-    ![image](https://user-images.githubusercontent.com/83181834/125538589-edd86858-1bef-4a43-b0a5-95c31b35cdd5.png)
+  State search is used to filter the data to view any UFO sightings within any US states. Note: Filteration data is case sensitive. In this example, we have only 3 UFO sightings in Arizona state.
+  
+  <img width="1067" alt="state search" src="https://user-images.githubusercontent.com/83181834/126022809-0bfff578-0f88-4312-b994-22d50dda4783.png">
+  
+ **- Country search**
+
+   Country search is provided to filter UFO sightings in each country. Although we are dealing with US only data for our project, this search will be helpful if we expand our dataset. In this example, all the data is shown for the country "US".
    
-**- Country search**
-
-    Country search is provided to filter UFO sightings in each country. Although we are dealing with US only data for our project, this search will be helpful if we expand our dataset. In this example, all the data is shown for the country "US".
-    ![image](https://user-images.githubusercontent.com/83181834/125538689-d270c3a2-e645-4a62-a9c4-1e64a76d013b.png)
-
+   <img width="1063" alt="country search" src="https://user-images.githubusercontent.com/83181834/126022870-97396e65-db53-4c4c-8743-9634a79d7bfc.PNG">
+   
 **- Shape search**
 
-    Shape search helps in finding UFO sightings according to the shapes of the sightings. In this example, there is no "square" shaped UFO sightings so the table returned no data.
-    ![image](https://user-images.githubusercontent.com/83181834/125538831-315cb196-ea87-4477-b12d-1d166a34fa48.png)
+   Shape search helps in finding UFO sightings according to the shapes of the sightings. In this example, there is no "square" shaped UFO sightings so the table returned no data.
+   
+   ![image](https://user-images.githubusercontent.com/83181834/126022897-e19a19c7-e62a-466c-9900-a0af6da5e174.png)
 
 
-## Summary
-###Drawback
--Filter data is case sensitive. Either change filter to accept only lower case or convert upper case to lower case in code. 
-
-###Recommendations
