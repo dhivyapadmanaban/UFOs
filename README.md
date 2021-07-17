@@ -40,4 +40,10 @@ Below is the UFO sightings webpage at the end of project deliverable. Web page w
    
    ![image](https://user-images.githubusercontent.com/83181834/126022897-e19a19c7-e62a-466c-9900-a0af6da5e174.png)
 
+## Summary
+
+### Drawback
+
+Data filters : Current web page's search filters are entered manual and its case sensitive. Ideally in a real world environment, common users are not trained to use web page like developers. In this scenario, if the user entered "US" or "USA" or "usa" the data won't be displayed. 
+<img width="1063" alt="Drawback" src="https://user-images.githubusercontent.com/83181834/126051304-31a39da8-de7f-4641-a3bc-72053c44452b.PNG">
 
