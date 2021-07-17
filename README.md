@@ -44,6 +44,20 @@ Below is the UFO sightings webpage at the end of project deliverable. Web page w
 
 ### Drawback
 
-Data filters : Current web page's search filters are entered manual and its case sensitive. Ideally in a real world environment, common users are not trained to use web page like developers. In this scenario, if the user entered "US" or "USA" or "usa" the data won't be displayed. 
+**Data filters :**  Current web page's search filters are entered manual and its case sensitive. Ideally in a real world environment, common users are not trained to use web page like developers. In this scenario, if the user entered "US" or "USA" or "usa" the data won't be displayed. 
 <img width="1063" alt="Drawback" src="https://user-images.githubusercontent.com/83181834/126051304-31a39da8-de7f-4641-a3bc-72053c44452b.PNG">
+
+### Recommendations
+
+Below recommendations helps in further development and fix the drawback of the current deisgn:
+
+- Improving User friendly interface : Search filters can be converted to drop downs filters which provide better user interaction.
+ -  Date Filter : Provide calendar to pick the date. This avoid the user confusion about entering the date manually in the required format (MM/DD/YYYY).
+ -  City Filter : Select the unique city names from the sample dataset and provide as dropdown filters.
+ -  State Filter : Select the unique state name from the sample dataset and list down as dropdown entries. We can make both these filters auto fill depending on each other selection.
+ -  Country Filter : Selet unique county name from the dataset and list down as dropdown.
+ -  Shape Filter : Unqiue shapes from dataset are listed as dropdowns.
+- Button click is always better option and easy on users to complete their search. 
+
+- With the current design the data is loaded when the page is loaded. This works just fine if we have limited data but in the case of handling huge data this makes the webpage longer and definitely not user friendly. No loading table data during page load and use filter options to view the data. If design demands provide additional button "All data" to get whole data on request. This speeds up the page loading.
 
