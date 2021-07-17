@@ -6,7 +6,7 @@ In this project, UFO data is built using data stored in JavaScript array. Create
 
 ## Results
  
-Below is the UFO sightings webpage at the end of project deliverable. Web page will load with all avaialbe UFO table data during initial page load. Also search filters are independent of each other, we can use any one filter or multiple filter of any order to view the data. 
+Below is the UFO sightings web-page at the end of project deliverable. Web page will load with all available UFO table data during initial page load. Also search filters are independent of each other, we can use any one filter or multiple filter of any order to view the data. 
 
 ![image](https://user-images.githubusercontent.com/83181834/125538105-cd93ab2c-5817-4277-acd7-6bf6af3e659b.png)
 
@@ -24,7 +24,7 @@ Below is the UFO sightings webpage at the end of project deliverable. Web page w
 
 **- State search**
 
-  State search is used to filter the data to view any UFO sightings within any US states. Note: Filteration data is case sensitive. In this example, we have only 3 UFO sightings in Arizona state.
+  State search is used to filter the data to view any UFO sightings within any US states. Note: Filtration data is case sensitive. In this example, we have only 3 UFO sightings in Arizona state.
   
   <img width="1067" alt="state search" src="https://user-images.githubusercontent.com/83181834/126022809-0bfff578-0f88-4312-b994-22d50dda4783.png">
   
@@ -49,15 +49,15 @@ Below is the UFO sightings webpage at the end of project deliverable. Web page w
 
 ### Recommendations
 
-Below recommendations helps in further development and fix the drawback of the current deisgn:
+Below recommendations helps in further development and fix the drawback of the current design:
 
 - Improving User friendly interface : Search filters can be converted to drop downs filters which provide better user interaction.
- -  Date Filter : Provide calendar to pick the date. This avoid the user confusion about entering the date manually in the required format (MM/DD/YYYY).
- -  City Filter : Select the unique city names from the sample dataset and provide as dropdown filters.
- -  State Filter : Select the unique state name from the sample dataset and list down as dropdown entries. We can make both these filters auto fill depending on each other selection.
- -  Country Filter : Selet unique county name from the dataset and list down as dropdown.
- -  Shape Filter : Unqiue shapes from dataset are listed as dropdowns.
-- Button click is always better option and easy on users to complete their search. 
+    - Date Filter : Provide calendar to pick the date. This avoid the user confusion about entering the date manually in the required format (MM/DD/YYYY).
+    - City Filter : Select the unique city names from the sample dataset and provide as drop-down filters.
+    - State Filter : Select the unique state name from the sample dataset and list down as drop-down entries. We can make both these filters auto fill depending on each other selection.
+    - Country Filter : Select unique county name from the dataset and list down as drop-down.
+    - Shape Filter : Unique shapes from dataset are listed as drop-downs.
 
-- With the current design the data is loaded when the page is loaded. This works just fine if we have limited data but in the case of handling huge data this makes the webpage longer and definitely not user friendly. No loading table data during page load and use filter options to view the data. If design demands provide additional button "All data" to get whole data on request. This speeds up the page loading.
+- With the current design the data is loaded while the page is initialized. This works fine until we are dealing with limited data but in the case of handling huge dataset this makes the web-page longer and definitely not user friendly. With the filter search refined with drop-downs, it will be easier for users to pick date range with multiple additional filters to view the data. If design demands providing all data for users, consider creating an additional button "All data" to get whole data displayed on request. 
 
+- Addition of "Search" Button : Button click is always better option and easy on users to complete their search.
